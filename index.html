@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Password Generator</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css" />
+        <script src="index.js" defer></script>
+    </head>
+    <body>
+        <section> 
+        <h1 class="tag">
+            <p class="tag-1">Generate a</p>
+            <p class="tag-2">random password</p>
+        </h1>
+        <p class="sub"> Never use an unsecure password again.</p>
+         
+        <div class="constrains">
+        <div >
+        <label>Set password length: </label> <input id="text" min="5" max="15" type="text">
+        </div> 
+        <div>
+        <input type="checkbox" id="cb1"> Only include numbers<label>
+        </div>
+        <div>
+        <input type="checkbox" id="cb2"> Only include symbols<label>
+        </div>
+        </div>
+        <button class="btn" onclick="generatePassword()">Generate passwords</button>
+         <hr/>
+        <div class="passwords"> 
+            <div class="passwords-1" id="pass-1" onclick="copy1()"></div> <div class="passwords-2" id="pass-2" onclick="copy2()"></div>
+        </div>
+        </section>    
+        
+    </body>
+</html>

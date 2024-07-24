@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    background: rgba(31, 41, 55, 1);
+    font-family: "Roboto", sans-serif;
+}
+
+.tag{
+    line-height: 0.15;
+}
+
+
+.tag-1{
+    color: white;
+}
+
+.tag-2{
+    color: #10B981;
+}
+
+.sub{
+    color: #E5E7EB;
+    font-weight: 300;
+    line-height: 0.15;
+}
+
+.btn{
+    margin-top: 20px;
+    width: inherit;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #10B981;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;   
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.btn:active{
+    background-color: #059669;    
+}
+
+.passwords{
+    display: flex;
+    justify-content: space-around;
+}
+
+.passwords > div:hover{
+    cursor: copy;
+}
+
+section{
+    margin: 3rem;
+}
+
+hr{
+    height: 1px;
+    background-color: #374151;
+    border: none;
+}
+
+.passwords > div{
+    color: #10B981;
+    background-color: #374151;
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    padding: 8px;
+    border-radius: 3px;
+    font-size: small;
+    height: 1rem;
+}
+
+.constrains{
+    display: flexbox;
+    color: #E5E7EB;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.constrains > div{
+    padding: 2px;
+}
+input{
+    outline: none;
+    border: none;
+    width: 2rem;
+    height: 1rem;
+    background-color: #374151;
+    border-radius: 2px;
+    
+}
+
+input:focus{
+    outline: #10B981;
+    border: #10B981 solid 2px;
+}
+
+
+#cb1{
+    background-color: #374151;    
+    accent-color: #10B981;
+}
+
+#cb2{
+    background-color: #374151;   
+    accent-color: #10B981;
+}
+
+#text{
+    color: #E5E7EB;
+}
